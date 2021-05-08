@@ -19,11 +19,6 @@ use structopt::StructOpt;
 #[derive(Debug, StructOpt)]
 #[structopt(name = "cryptoki-example", about = "An example cryptoki CLI")]
 struct CliOpt {
-    /// Activate debug mode
-    // short and long flags (-d, --debug) will be deduced from the field's name
-    #[structopt(short, long)]
-    debug: bool,
-
     /// PKCS11 Module path
     #[structopt(long, parse(from_os_str))]
     module: PathBuf,
