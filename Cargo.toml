@@ -7,3 +7,9 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+cryptoki = "0.1"
+structopt = "0.3"
+anyhow = "1"
+rsa = "0.4"
+rand = "0.8"
+hex = "0.4"
