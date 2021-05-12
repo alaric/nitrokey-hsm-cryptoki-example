@@ -11,3 +11,5 @@ generated](https://github.com/OpenSC/OpenSC/wiki/SmartCardHSM#generate-key-pair)
 cargo run -- --module /usr/lib/opensc-pkcs11.so --pin 123456 --slot 0 --id 10
 ```
 
+I also documented a couple of the quirks [on this blog
+post](https://doublethink.co.uk/getting-started-rust-nitrokey/).
